@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "start:dev": "nodemon app.js --exec babel-node",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +20,12 @@
   "homepage": "https://github.com/Bapu2407/ProjectSupport1#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
   }
 }
